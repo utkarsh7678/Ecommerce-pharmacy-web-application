@@ -1,0 +1,12 @@
+com\mycompany\getpharma\entites\Delivery_partnear.class
+com\mycompany\getpharma\entites\product.class
+com\mycompany\getpharma\helper\FactoryProvider.class
+com\mycompany\getpharma\resources\JakartaEE8Resource.class
+com\mycompany\getpharma\entites\category.class
+com\mycompany\getpharma\dao\dog.class
+com\mycompany\getpharma\entites\User.class
+com\mycompany\getpharma\servlets\RegisterServlet.class
+com\mycompany\getpharma\JakartaRestConfiguration.class
+com\mycompany\getpharma\servlets\RegisterdriverServlet.class
+com\mycompany\getpharma\servlets\LoginServlet.class
+com\mycompany\getpharma\dao\UserDao.class
