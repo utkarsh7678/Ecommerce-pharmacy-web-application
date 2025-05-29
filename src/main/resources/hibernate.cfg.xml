@@ -5,16 +5,17 @@
 <hibernate-configuration>
     <session-factory>
         <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
-                <property name="connection.url">jdbc:mysql://localhost:3306/mycart</property>
-                                <property name="connection.username">root</property>
-                               <property name="connection.password">Us803397@</property>
-                            <property name="dialect">org.hibernate.dialect.MySQL8Dialect</property>                          <property name="hbm2ddl.auto">update</property>
-                     <property name="show_sql">true</property>
-                     <mapping class="com.mycompany.getpharma.entites.User"/>
-                                          <mapping class="com.mycompany.getpharma.entites.category"/>
-                     <mapping class="com.mycompany.getpharma.entites.product"/>
-
+        <property name="connection.url">jdbc:mysql://localhost:3306/mycart</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">Us803397@</property>
+        <property name="dialect">org.hibernate.dialect.MySQL8Dialect</property>
+        <property name="hbm2ddl.auto">update</property>
+        <property name="show_sql">true</property>
+        <mapping class="com.mycompany.getpharma.entites.User"/>
+        <mapping class="com.mycompany.getpharma.entites.category"/>
+        <mapping class="com.mycompany.getpharma.entites.product"/>
+        <mapping class="com.mycompany.getpharma.entites.Order"/>
+        <mapping class="com.mycompany.getpharma.entites.OrderItem"/>
+        <mapping class="com.mycompany.getpharma.entites.Delivery_partnear"/>
     </session-factory>
 </hibernate-configuration>
-    
-    
