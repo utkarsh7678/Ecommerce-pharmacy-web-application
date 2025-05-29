@@ -3,8 +3,21 @@
 }
 .admin .card{
     border: 2px solid red;
-    
 }
 .admin .card:hover{
-    background:#311b92 ;
+    background:#311b92;
+    color: white;
+    cursor: pointer;
+}
+.list-group-item.active{
+    background:#311b92!important;
+    border-color: #311b92!important;
+}
+.discount-label{
+    font-size: 10px!important;
+    font-style: italic!important;
+}
+.product-card:hover{
+    background:#e2e2e2;
+    cursor: pointer;
 }
