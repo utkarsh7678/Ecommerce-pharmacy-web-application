@@ -21,3 +21,14 @@
     background:#e2e2e2;
     cursor: pointer;
 }
+.cart-items {
+    font-size: 14px;
+}
+.btn-minus, .btn-plus {
+    padding: 2px 6px;
+    margin: 0 3px;
+}
+.checkout-btn.disabled {
+    pointer-events: none;
+    opacity: 0.6;
+}
